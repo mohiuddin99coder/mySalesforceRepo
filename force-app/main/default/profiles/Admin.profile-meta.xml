@@ -6,12 +6,20 @@
         <field>Account.Custom_Checkbox__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Phone_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
         <recordType>Account.Business_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>PersonAccount-Person Account Layout</layout>
